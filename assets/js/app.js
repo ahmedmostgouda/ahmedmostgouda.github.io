@@ -1,4 +1,7 @@
 $(document).ready(function(){
+	$("#covid_detection_post").load("projectsposts/covid_detection_post.html");
+	$("#lung_segmentation_post").load("projectsposts/lung_segmentation_post.html");
+
 	$("#brainDL_sem3_post").load("projectsposts/brainDL_sem3_post.html");
 	$("#atlas_sem3_post").load("projectsposts/atlas_sem3_post.html");
 	$("#histo_sem3_post").load("projectsposts/histo_sem3_post.html");
